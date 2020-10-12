@@ -1,3 +1,0 @@
-D:\workspace\Unreal\Hero\Hero\Intermediate\Build\Win64\UE4Editor\Development\Hero\Definitions.Hero.h
-D:\Program Files (x86)\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-D:\Program Files (x86)\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
