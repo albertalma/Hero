@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\workspace\\Unreal\\Hero\\Hero\\Source\\Hero\\Hero.Build.cs",
+		"D:\\workspace\\Unreal\\Hero\\Hero\\Source\\Hero.Target.cs",
+		"D:\\workspace\\Unreal\\Hero\\Hero\\Source\\HeroEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.3"
+}

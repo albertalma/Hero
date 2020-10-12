@@ -1,0 +1,2 @@
+D:\workspace\Unreal\Hero\Hero\Intermediate\Build\Win64\UE4Editor\Development\Hero\Definitions.Hero.h
+d:\workspace\unreal\hero\hero\source\hero\Hero.h

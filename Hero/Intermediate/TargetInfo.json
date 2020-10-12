@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Hero",
+			"Path": "D:\\workspace\\Unreal\\Hero\\Hero\\Source\\Hero.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "HeroEditor",
+			"Path": "D:\\workspace\\Unreal\\Hero\\Hero\\Source\\HeroEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
