@@ -33,15 +33,7 @@ void AAIPerceptionController::UpdateControlRotation(float DeltaTime, bool bUpdat
     }
     else
     {
-        if (UCharacterMovementComponent* movement = Cast<ACharacter>(GetPawn())->GetCharacterMovement())
-        {
-            const FVector Direction = movement->GetLastUpdateVelocity().GetSafeNormal2D();
-
-            if (Direction.IsNearlyZero() == false)
-            {
-                SetControlRotation(Direction.ToOrientationRotator());
-            }
-        }
+        Super::UpdateControlRotation(DeltaTime, bUpdatePawn);
     }
 }
 
@@ -60,7 +52,7 @@ void AAIPerceptionController::OnTargetUpdated(AActor* Actor, FAIStimulus Stimulu
         {
             m_targetComponent->SetTarget(Actor);
             const ACharacter* owner = Cast<ACharacter>(GetPawn());
-            owner->GetCharacterMovement()->MaxWalkSpeed = 120.f;
+            owner->GetCharacterMovement()->MaxWalkSpeed = StrafeSpeed;
             owner->GetCharacterMovement()->bOrientRotationToMovement = false;
         }
     }

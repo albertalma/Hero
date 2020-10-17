@@ -20,11 +20,15 @@ class HERO_API AAIPerceptionController : public AAIController
 
 public:
 
+    UPROPERTY(EditDefaultsOnly)
+    float StrafeSpeed = 150.f;
+
+public:
+
     AAIPerceptionController();
 
     UFUNCTION(BlueprintCallable)
     UAITargetComponent* GetTargetComponent() const;
-
 
     virtual void UpdateControlRotation(float DeltaTime, bool bUpdatePawn = true) override;
 
