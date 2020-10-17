@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Copyright Albert Alma Ltd.
 
 #pragma once
 
@@ -18,10 +18,15 @@ class HERO_API AAIPerceptionController : public AAIController
 {
     GENERATED_BODY()
 
+public:
+
     AAIPerceptionController();
 
     UFUNCTION(BlueprintCallable)
     UAITargetComponent* GetTargetComponent() const;
+
+
+    virtual void UpdateControlRotation(float DeltaTime, bool bUpdatePawn = true) override;
 
 protected:
 

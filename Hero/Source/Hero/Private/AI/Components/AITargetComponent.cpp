@@ -1,4 +1,6 @@
-#include "AITargetComponent.h"
+// Copyright Albert Alma Ltd.
+
+#include "AI/Components/AITargetComponent.h"
 
 UAITargetComponent::UAITargetComponent()
 {
